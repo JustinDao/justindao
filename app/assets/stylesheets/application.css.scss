@@ -17,6 +17,23 @@ $navbar-default-bg: #011F4A;
 
 @import "bootstrap";
 
+body
+{
+  background-color: #111111;
+  color: white;
+}
+
+aside
+{
+  max-width: 20%;
+  margin-right: 20px;
+}
+
+.header-container
+{
+  margin: 0;
+}
+
 .header-nav
 {
   border-radius: 0px;
@@ -34,6 +51,12 @@ $navbar-default-bg: #011F4A;
 .navbar-default .navbar-nav > li > a
 {
   color: $light-blue;
+  border-radius: 2px;
+}
+
+.navbar-default .navbar-nav > li
+{
+  margin: 0 5px;
 }
 
 .navbar-default .navbar-nav > li > a:hover
@@ -58,4 +81,11 @@ $navbar-default-bg: #011F4A;
 {
   color: #cccccc;
   background-color: transparent;
+  cursor: pointer;
+}
+
+aside > .nav-pills > li > a
+{
+  border-radius: 2px;
+  margin: 5px 0;
 }

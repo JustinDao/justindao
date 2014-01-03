@@ -1,0 +1,10 @@
+%aside
+  %ul.nav.nav-pills.nav-stacked
+    %li{:class => current_page?(main_projects_path) ? "active" : nil}
+      %a{href: main_projects_path} Main Projects
+
+    %li{:class => current_page?(thecourseforum_path) ? "active" : nil}
+      %a{href: thecourseforum_path} theCourseForum
+      
+    %li{:class => current_page?(nuduro_path) ? "active" : nil}
+      %a{href: nuduro_path} Nuduro

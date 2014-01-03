@@ -32,6 +32,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+group :development do
+  gem "pry"
+  gem 'pry-nav'
+end
+
 gem 'bootstrap-sass', '>= 3.0.0'
 
 gem 'haml'

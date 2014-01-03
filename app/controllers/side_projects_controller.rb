@@ -1,0 +1,3 @@
+class SideProjectsController < ApplicationController
+  
+end
