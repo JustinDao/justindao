@@ -12,4 +12,13 @@
  *= require_tree .
  */
 
+$navbar-default-bg: #011F4A;
+
 @import "bootstrap";
+
+.header-nav
+{
+  border-radius: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

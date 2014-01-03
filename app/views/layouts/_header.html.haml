@@ -1,9 +1,11 @@
-%ul.nav.nav-pills
-  %li{:class => current_page?(root_path) ? "active" : ""}
-    %a{:href => root_path} Justin Dao
-  %li{:class => current_page?(main_projects_path) ? "active" : ""}
-    %a{:href => main_projects_path} Main Projects
-  %li{:class => current_page?(side_projects_path) ? "active" : ""}
-    %a{:href => side_projects_path} Side Projects
-  %li{:class => current_page?(contact_path) ? "active" : ""}
-    %a{:href => contact_path} Contact
+%nav.navbar.navbar-default.header-nav{role: "navigation"}
+  .container
+    %ul.nav.nav-pills
+      %li{:class => current_page?(root_path) ? "active" : ""}
+        %a{:href => root_path} Justin Dao
+      %li{:class => current_page?(main_projects_path) ? "active" : ""}
+        %a{:href => main_projects_path} Main Projects
+      %li{:class => current_page?(side_projects_path) ? "active" : ""}
+        %a{:href => side_projects_path} Side Projects
+      %li{:class => current_page?(contact_path) ? "active" : ""}
+        %a{:href => contact_path} Contact
