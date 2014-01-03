@@ -1,11 +1,12 @@
 %nav.navbar.navbar-default.header-nav{role: "navigation"}
-  .container
-    %ul.nav.nav-pills
-      %li{:class => current_page?(root_path) ? "active" : ""}
-        %a{:href => root_path} Justin Dao
-      %li{:class => current_page?(main_projects_path) ? "active" : ""}
-        %a{:href => main_projects_path} Main Projects
-      %li{:class => current_page?(side_projects_path) ? "active" : ""}
-        %a{:href => side_projects_path} Side Projects
-      %li{:class => current_page?(contact_path) ? "active" : ""}
-        %a{:href => contact_path} Contact
+  %a.navbar-brand
+    Justin Dao
+  %ul.nav.nav-pills.navbar-nav
+    %li{:class => current_page?(root_path) ? "active" : nil}
+      %a{:href => root_path} Home
+    %li{:class => current_page?(main_projects_path) ? "active" : nil}
+      %a{:href => main_projects_path} Main Projects
+    %li{:class => current_page?(side_projects_path) ? "active" : nil}
+      %a{:href => side_projects_path} Side Projects
+    %li{:class => current_page?(contact_path) ? "active" : nil}
+      %a{:href => contact_path} Contact

@@ -12,6 +12,7 @@
  *= require_tree .
  */
 
+$light-blue: #428bca;
 $navbar-default-bg: #011F4A;
 
 @import "bootstrap";
@@ -19,6 +20,42 @@ $navbar-default-bg: #011F4A;
 .header-nav
 {
   border-radius: 0px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 20px;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover
+{
+  background-color: $light-blue;
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+  color: $light-blue;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+  text-decoration: none;
+  color: $light-blue;
+  background-color: #eeeeee;
+
+}
+
+.navbar-default .navbar-brand
+{
+  color: white;
+
+  a:hover
+  {
+    text-decoration: none;
+  }
+}
+
+.navbar-default .navbar-brand:hover
+{
+  color: #cccccc;
+  background-color: transparent;
 }
