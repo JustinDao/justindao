@@ -2,3 +2,28 @@
 {
   text-align: center;
 }
+
+.rambling-control
+{
+  background: asset-url("themes/default/bullets.png") no-repeat !important;
+}
+
+.theme-default .ramblingSlider .rambling-controlNav a.active 
+{
+  background-position: 0 -22px !important;
+}
+
+.theme-default .ramblingSlider .rambling-directionNav a
+{
+  background: asset-url("themes/default/arrows.png") no-repeat !important;
+}
+
+.theme-default .ramblingSlider a.rambling-nextNav
+{
+  background-position: -30px 0 !important;
+}
+
+.theme-default .ramblingSlider
+{
+  background: white asset-url("/themes/default/loading.gif") no-repeat 50% 50% !important;
+}
