@@ -10,6 +10,8 @@
  *
  *= require_self
  *= require_tree .
+ *= require jquery.rambling.slider
+ *= require rambling_slider
  */
 
 $light-blue: #428bca;
@@ -89,3 +91,4 @@ aside > .nav-pills > li > a
   border-radius: 2px;
   margin: 5px 0;
 }
+

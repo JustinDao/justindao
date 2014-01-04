@@ -1,0 +1,12 @@
+.wrapper
+  .slider-wrapper.theme-default
+    .ribbon
+    #main_slider.ramblingSlider
+      %img{:alt => "theCourseForum", :src => image_path("tCF_logo.png"), :title => "#theCourseForum-caption"}
+      %img{:alt => "Nuduro", :src => image_path("nuduro_logo.png"), :title => "#nuduro-caption"}
+    .rambling-html-caption#theCourseForum-caption
+      = link_to "theCourseForum", thecourseforum_path
+    .rambling-html-caption#nuduro-caption
+      = link_to "Nuduro", nuduro_path
+      
+    

@@ -11,7 +11,14 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.rambling.slider
 //= require jquery_ujs
 //= require bootstrap
-//= require turbolinks
 //= require_tree .
+
+$(window).load(function(){
+  var start = Math.floor((Math.random()*2));
+  $('#main_slider').ramblingSlider({
+    startSlide: start
+  });
+});
