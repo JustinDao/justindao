@@ -1,3 +1,0 @@
-class SideProjectsController < ApplicationController
-  
-end

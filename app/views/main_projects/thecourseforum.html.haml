@@ -1,1 +1,34 @@
-= render "main_projects_sidebar"
+.row
+  .col-xs-3
+    .row
+      = render "main_projects_sidebar"
+  .col-xs-8
+    .row
+      .image
+        = image_tag "tCF_logo.png", :style => "max-width: 100%;"
+      %p.goal
+        %h3 Goal
+        %p
+          theCourseForum is a place where UVa students can share their facts and opinions about the classes and professors they have had at the University of Virginia. The site aims to make the task of choosing classes as easy as possible by providing distributions of past grades for the classes along with reviews of the classes by fellow students. 
+        %p
+          theCourseForum also works towards bringing vital web development skills to UVa students. Other than a single upper-level computer science course, UVa does not offer any course on web development. We hope to be able to bring these skills to a wider range of students, with theCourseForum as a basis for development.
+      %p.about
+        %h3 About
+        %p
+          I have been working on this project since Fall of 2012, and I am currently the lead developer for this project out of a team of six UVa students. This project was started by creators Jeff Bordogna and Alan Webb in 2005, and after a long era of the site being unmaintained, they began looking for a small group of UVa students to take up the future of the site. 
+
+          We use the Ruby on Rails framework for our back end due to its versitility, growing community, and its low level of difficulty to teach to new developers intereseted in creating web applications.
+        %h3 Links
+        %p.website
+          = precede "Website: " do
+            = link_to "thecourseforum.com", "http://www.thecourseforum.com", :target => '_blank'
+        %p.github
+          = precede "Github: " do
+            = link_to "github.com/thecourseforum/theCourseForum", "http://www.github.com/thecourseforum/theCourseForum", :target => '_blank'
+        %p.facebook
+          = precede "Facebook: " do
+            = link_to "facebook.com/theCourseForum", "http://www.facebook.com/theCourseForum", :target => '_blank'
+        %p.twitter
+          = precede "Twitter: " do
+            = link_to "twitter.com/theCourseForum", "http://www.twitter.com/theCourseForum", :target => '_blank'
+
