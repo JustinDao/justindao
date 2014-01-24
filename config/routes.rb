@@ -8,5 +8,4 @@ Justindao::Application.routes.draw do
   get '/main_projects/theCourseForum', to: "main_projects#thecourseforum", as: "thecourseforum"
   
   get '/other_projects/Nuduro', to: "other_projects#nuduro", as: "nuduro"
-  get '/other_projects/MarioKartMadess', to: "other_projects#mario_kart_madness", as: "mario_kart_madness"
 end
